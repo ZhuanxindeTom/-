@@ -1,0 +1,866 @@
+2021-12-26 12:56:02,180 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2021-12-26 12:56:33,191 django.request 222 WARNING  Not Found: /favicon.ico
+2021-12-26 13:50:24,114 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-17 19:03:05,490 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-17 19:03:38,969 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-17 19:04:30,481 book.views   329 INFO     woaixuexi_666 created Category innocence
+2022-07-17 19:05:11,288 book.views   410 INFO     woaixuexi_666 created Publisher LCT
+2022-07-17 19:05:26,280 django.request 222 ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Python_code\Library-main\book\views.py", line 81, in get
+    user_avatar = { e.created_by:Profile.objects.get(user__username=e.created_by).profile_pic.url for e in user_activities}
+  File "D:\Python_code\Library-main\book\views.py", line 81, in <dictcomp>
+    user_avatar = { e.created_by:Profile.objects.get(user__username=e.created_by).profile_pic.url for e in user_activities}
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\query.py", line 406, in get
+    raise self.model.DoesNotExist(
+book.models.Profile.DoesNotExist: Profile matching query does not exist.
+2022-07-17 19:05:26,962 django.request 222 WARNING  Not Found: /favicon.ico
+2022-07-17 19:13:16,964 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-17 19:13:18,682 django.request 222 ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Python_code\Library-main\book\views.py", line 81, in get
+    user_avatar = { e.created_by:Profile.objects.get(user__username=e.created_by).profile_pic.url for e in user_activities}
+  File "D:\Python_code\Library-main\book\views.py", line 81, in <dictcomp>
+    user_avatar = { e.created_by:Profile.objects.get(user__username=e.created_by).profile_pic.url for e in user_activities}
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\query.py", line 406, in get
+    raise self.model.DoesNotExist(
+book.models.Profile.DoesNotExist: Profile matching query does not exist.
+2022-07-17 19:13:19,456 django.request 222 WARNING  Not Found: /favicon.ico
+2022-07-17 19:14:27,284 django.request 222 ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Python_code\Library-main\book\views.py", line 81, in get
+    user_avatar = { e.created_by:Profile.objects.get(user__username=e.created_by).profile_pic.url for e in user_activities}
+  File "D:\Python_code\Library-main\book\views.py", line 81, in <dictcomp>
+    user_avatar = { e.created_by:Profile.objects.get(user__username=e.created_by).profile_pic.url for e in user_activities}
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\query.py", line 406, in get
+    raise self.model.DoesNotExist(
+book.models.Profile.DoesNotExist: Profile matching query does not exist.
+2022-07-17 19:14:28,148 django.request 222 WARNING  Not Found: /favicon.ico
+2022-07-17 19:20:49,720 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-17 19:20:53,321 django.request 222 ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Python_code\Library-main\book\views.py", line 81, in get
+    user_avatar = { e.created_by:Profile.objects.get(user__username=e.created_by).profile_pic.url for e in user_activities}
+  File "D:\Python_code\Library-main\book\views.py", line 81, in <dictcomp>
+    user_avatar = { e.created_by:Profile.objects.get(user__username=e.created_by).profile_pic.url for e in user_activities}
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\query.py", line 406, in get
+    raise self.model.DoesNotExist(
+book.models.Profile.DoesNotExist: Profile matching query does not exist.
+2022-07-17 19:20:53,428 django.request 222 WARNING  Not Found: /favicon.ico
+2022-07-17 19:23:28,404 django.utils.autoreload 217 INFO     D:\Python_code\Library-main\manage.py changed, reloading.
+2022-07-17 19:23:29,033 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-17 19:24:14,297 django.request 222 ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Python_code\Library-main\book\views.py", line 81, in get
+    user_avatar = { e.created_by:Profile.objects.get(user__username=e.created_by).profile_pic.url for e in user_activities}
+  File "D:\Python_code\Library-main\book\views.py", line 81, in <dictcomp>
+    user_avatar = { e.created_by:Profile.objects.get(user__username=e.created_by).profile_pic.url for e in user_activities}
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\query.py", line 406, in get
+    raise self.model.DoesNotExist(
+book.models.Profile.DoesNotExist: Profile matching query does not exist.
+2022-07-17 19:34:42,753 django.request 222 ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Python_code\Library-main\book\views.py", line 81, in get
+    user_avatar = { e.created_by:Profile.objects.get(user__username=e.created_by).profile_pic.url for e in user_activities}
+  File "D:\Python_code\Library-main\book\views.py", line 81, in <dictcomp>
+    user_avatar = { e.created_by:Profile.objects.get(user__username=e.created_by).profile_pic.url for e in user_activities}
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\query.py", line 406, in get
+    raise self.model.DoesNotExist(
+book.models.Profile.DoesNotExist: Profile matching query does not exist.
+2022-07-18 00:17:49,604 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-18 00:18:36,092 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-18 00:19:57,653 django.request 222 ERROR    Internal Server Error: /user/profile-create/
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\software\Python3.10.5\lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "D:\software\Python3.10.5\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "D:\software\Python3.10.5\lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\software\Python3.10.5\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\util\retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 447, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 336, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='api.openweathermap.org', port=80): Read timed out. (read timeout=None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\loader_tags.py", line 188, in render
+    return template.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 173, in render
+    return self._render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\library.py", line 214, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "D:\Python_code\Library-main\book\templatetags\book_extras.py", line 40, in show_weather
+    r = requests.get(url).json()
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='api.openweathermap.org', port=80): Read timed out. (read timeout=None)
+2022-07-18 00:19:57,802 django.request 222 WARNING  Not Found: /favicon.ico
+2022-07-18 00:23:30,361 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-18 00:32:52,275 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-18 00:33:07,282 book.views   329 INFO     woaixuexi_666 created Category innocence
+2022-07-18 00:33:22,749 book.views   410 INFO     woaixuexi_666 created Publisher asd
+2022-07-18 00:33:36,498 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-18 00:33:39,406 django.request 222 ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Python_code\Library-main\book\views.py", line 81, in get
+    user_avatar = { e.created_by:Profile.objects.get(user__username=e.created_by).profile_pic.url for e in user_activities}
+  File "D:\Python_code\Library-main\book\views.py", line 81, in <dictcomp>
+    user_avatar = { e.created_by:Profile.objects.get(user__username=e.created_by).profile_pic.url for e in user_activities}
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\query.py", line 406, in get
+    raise self.model.DoesNotExist(
+book.models.Profile.DoesNotExist: Profile matching query does not exist.
+2022-07-18 20:44:11,876 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-18 20:44:13,950 django.request 222 ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Python_code\Library-main\book\views.py", line 81, in get
+    user_avatar = { e.created_by:Profile.objects.get(user__username=e.created_by).profile_pic.url for e in user_activities}
+  File "D:\Python_code\Library-main\book\views.py", line 81, in <dictcomp>
+    user_avatar = { e.created_by:Profile.objects.get(user__username=e.created_by).profile_pic.url for e in user_activities}
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\query.py", line 406, in get
+    raise self.model.DoesNotExist(
+book.models.Profile.DoesNotExist: Profile matching query does not exist.
+2022-07-18 20:44:14,304 django.request 222 WARNING  Not Found: /favicon.ico
+2022-07-18 20:44:48,523 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-18 20:55:57,679 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-18 21:04:51,514 django.request 222 WARNING  Not Found: /login
+2022-07-18 21:04:51,589 django.request 222 WARNING  Not Found: /favicon.ico
+2022-07-18 21:05:26,214 django.utils.autoreload 217 INFO     D:\Python_code\Library-main\authentication\views.py changed, reloading.
+2022-07-18 21:05:27,025 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-18 21:05:53,213 django.utils.autoreload 217 INFO     D:\Python_code\Library-main\authentication\views.py changed, reloading.
+2022-07-18 21:05:53,917 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-18 21:06:50,007 django.utils.autoreload 217 INFO     D:\Python_code\Library-main\authentication\views.py changed, reloading.
+2022-07-18 21:06:50,680 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-18 21:06:57,041 django.utils.autoreload 217 INFO     D:\Python_code\Library-main\authentication\views.py changed, reloading.
+2022-07-18 21:06:57,693 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-18 21:07:10,756 django.utils.autoreload 217 INFO     D:\Python_code\Library-main\authentication\views.py changed, reloading.
+2022-07-18 21:07:11,348 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-18 21:08:39,120 django.security.csrf 222 WARNING  Forbidden (CSRF token missing or incorrect.): /auth/login/
+2022-07-18 21:08:51,634 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-18 21:10:50,963 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-18 21:19:36,135 book.views   220 INFO     Book  <<Best Book>> retrieved from db
+2022-07-18 21:31:41,753 book.views   220 INFO     Book  <<Best Book>> retrieved from db
+2022-07-18 21:39:40,601 book.views   220 INFO     Book  <<Best Book>> retrieved from db
+2022-07-18 21:48:22,839 book.views   220 INFO     Book  <<Best Book>> retrieved from db
+2022-07-19 00:15:32,518 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-19 00:16:00,352 book.views   220 INFO     Book  <<MarkdownTestA>> retrieved from db
+2022-07-19 10:55:50,890 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-19 11:09:23,080 django.utils.autoreload 217 INFO     D:\Python_code\Library-main\book\templatetags\book_extras.py changed, reloading.
+2022-07-19 11:09:23,769 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-19 11:09:26,730 django.utils.autoreload 217 INFO     D:\Python_code\Library-main\book\templatetags\book_extras.py changed, reloading.
+2022-07-19 11:09:27,365 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-19 11:09:29,984 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-19 11:12:25,199 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-19 11:16:54,786 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-19 11:48:42,842 django.utils.autoreload 217 INFO     D:\Python_code\Library-main\book\templatetags\book_extras.py changed, reloading.
+2022-07-19 11:48:43,570 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-19 11:49:21,090 django.utils.autoreload 217 INFO     D:\Python_code\Library-main\book\templatetags\book_extras.py changed, reloading.
+2022-07-19 11:49:21,715 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-19 11:49:37,140 django.utils.autoreload 217 INFO     D:\Python_code\Library-main\book\templatetags\book_extras.py changed, reloading.
+2022-07-19 11:49:37,843 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-19 11:52:18,120 django.utils.autoreload 217 INFO     D:\Python_code\Library-main\book\templatetags\book_extras.py changed, reloading.
+2022-07-19 11:52:18,825 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-19 12:26:27,336 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-19 12:27:26,221 django.utils.autoreload 217 INFO     D:\Python_code\Library-main\book\templatetags\book_extras.py changed, reloading.
+2022-07-19 12:27:26,820 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-19 12:29:22,575 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-19 12:34:59,505 django.utils.autoreload 217 INFO     D:\Python_code\Library-main\book\templatetags\book_extras.py changed, reloading.
+2022-07-19 12:35:00,128 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-19 12:35:05,832 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-19 12:38:11,327 django.request 222 ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connection.py", line 411, in connect
+    self.sock = ssl_wrap_socket(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\software\Python3.10.5\lib\ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "D:\software\Python3.10.5\lib\ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "D:\software\Python3.10.5\lib\ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\util\retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 385, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 336, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Read timed out. (read timeout=None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Python_code\Library-main\book\views.py", line 104, in get
+    return render(request, self.template_name, self.context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\loader_tags.py", line 188, in render
+    return template.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 173, in render
+    return self._render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\library.py", line 214, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "D:\Python_code\Library-main\book\templatetags\book_extras.py", line 57, in show_weather
+    r = requests.get(url).json()
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Read timed out. (read timeout=None)
+2022-07-19 12:38:11,480 django.request 222 WARNING  Not Found: /favicon.ico
+2022-07-19 12:39:24,369 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-20 20:01:47,816 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-20 20:07:46,376 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-20 20:08:28,497 book.views   329 INFO     woaixuexi_666 created Category 科幻小说
+2022-07-20 20:08:40,883 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-20 20:12:32,753 book.views   352 INFO     woaixuexi_666 delete Category Zeliang YAO
+2022-07-20 20:12:33,366 book.views   352 INFO     woaixuexi_666 delete Category Fashion
+2022-07-20 20:12:33,949 book.views   352 INFO     woaixuexi_666 delete Category Comic
+2022-07-20 20:12:34,701 book.views   352 INFO     woaixuexi_666 delete Category Literary Fiction
+2022-07-20 20:12:50,008 book.views   352 INFO     woaixuexi_666 delete Category Detective and Mystery
+2022-07-20 20:12:50,504 book.views   352 INFO     woaixuexi_666 delete Category Watch
+2022-07-20 20:12:50,937 book.views   352 INFO     woaixuexi_666 delete Category Fiction
+2022-07-20 20:12:51,447 book.views   352 INFO     woaixuexi_666 delete Category Computers & Tech
+2022-07-20 20:12:58,656 book.views   352 INFO     woaixuexi_666 delete Category Finance
+2022-07-20 20:12:59,162 book.views   352 INFO     woaixuexi_666 delete Category Historical
+2022-07-20 20:12:59,848 book.views   352 INFO     woaixuexi_666 delete Category Fantasy
+2022-07-20 20:13:00,069 book.views   352 INFO     woaixuexi_666 delete Category Cooking
+2022-07-20 20:13:08,107 book.views   352 INFO     woaixuexi_666 delete Category Economics
+2022-07-20 20:13:53,503 book.views   352 INFO     woaixuexi_666 delete Category 科幻小说
+2022-07-20 20:14:34,041 book.views   329 INFO     woaixuexi_666 created Category 人文类图书
+2022-07-20 20:14:45,491 book.views   329 INFO     woaixuexi_666 created Category 自然类图书
+2022-07-20 20:16:38,282 book.views   329 INFO     woaixuexi_666 created Category A哲学类图书
+2022-07-20 20:17:01,794 book.views   329 INFO     woaixuexi_666 created Category B宗教类图书
+2022-07-20 20:25:34,612 django.request 222 ERROR    Internal Server Error: /record-delete/34/
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Python_code\LibraryManageSystem\book\views.py", line 831, in get
+    delete_record=BorrowRecord.objects.get(pk=record_pk)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\query.py", line 406, in get
+    raise self.model.DoesNotExist(
+book.models.BorrowRecord.DoesNotExist: BorrowRecord matching query does not exist.
+2022-07-20 20:25:34,725 django.request 222 WARNING  Not Found: /favicon.ico
+2022-07-20 20:25:39,429 django.request 222 ERROR    Internal Server Error: /record-delete/34/
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Python_code\LibraryManageSystem\book\views.py", line 831, in get
+    delete_record=BorrowRecord.objects.get(pk=record_pk)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\query.py", line 406, in get
+    raise self.model.DoesNotExist(
+book.models.BorrowRecord.DoesNotExist: BorrowRecord matching query does not exist.
+2022-07-20 20:25:44,556 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-20 20:26:29,665 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-20 20:30:08,930 book.views   329 INFO     woaixuexi_666 created Category 小说类图书
+2022-07-20 20:31:53,395 book.views   329 INFO     woaixuexi_666 created Category 传记类图书
+2022-07-20 20:32:19,107 book.views   329 INFO     woaixuexi_666 created Category 实用类图书
+2022-07-20 20:33:12,411 book.views   329 INFO     woaixuexi_666 created Category 漫画类图书
+2022-07-20 20:33:47,215 book.views   329 INFO     woaixuexi_666 created Category 学术类图书
+2022-07-20 20:34:47,616 book.views   329 INFO     woaixuexi_666 created Category 军事类图书
+2022-07-20 20:35:03,068 book.views   329 INFO     woaixuexi_666 created Category 历史类图书
+2022-07-20 20:39:39,389 book.views   410 INFO     woaixuexi_666 created Publisher 人民教育出版社
+2022-07-20 20:39:53,936 book.views   457 INFO     woaixuexi_666 delete Publisher Fake Pub 99
+2022-07-20 20:39:54,463 book.views   457 INFO     woaixuexi_666 delete Publisher Fake Pub 5
+2022-07-20 20:39:54,921 book.views   457 INFO     woaixuexi_666 delete Publisher Pub4
+2022-07-20 20:39:55,370 book.views   457 INFO     woaixuexi_666 delete Publisher Pub3
+2022-07-20 20:40:28,327 book.views   457 INFO     woaixuexi_666 delete Publisher Pub2
+2022-07-20 20:40:28,902 book.views   457 INFO     woaixuexi_666 delete Publisher Pub1
+2022-07-20 20:43:58,219 book.views   410 INFO     woaixuexi_666 created Publisher 人民文学出版社
+2022-07-20 20:48:36,154 book.views   410 INFO     woaixuexi_666 created Publisher 三联书店
+2022-07-20 20:50:01,783 book.views   410 INFO     woaixuexi_666 created Publisher 商务印书馆
+2022-07-20 20:51:05,638 django.request 222 ERROR    Internal Server Error: /publisher-list
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connection.py", line 411, in connect
+    self.sock = ssl_wrap_socket(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\software\Python3.10.5\lib\ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "D:\software\Python3.10.5\lib\ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "D:\software\Python3.10.5\lib\ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=23.116&lon=113.25&units=metric&lang=zh_cn&appid=32ef9e7529d18b0e020660d069fa0bcb (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\loader_tags.py", line 188, in render
+    return template.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 173, in render
+    return self._render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\library.py", line 214, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "D:\Python_code\LibraryManageSystem\book\templatetags\book_extras.py", line 57, in show_weather
+    r = requests.get(url).json()
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=23.116&lon=113.25&units=metric&lang=zh_cn&appid=32ef9e7529d18b0e020660d069fa0bcb (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+2022-07-20 20:51:52,155 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-20 20:54:04,154 django.request 222 ERROR    Internal Server Error: /publisher-list
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connection.py", line 411, in connect
+    self.sock = ssl_wrap_socket(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\software\Python3.10.5\lib\ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "D:\software\Python3.10.5\lib\ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "D:\software\Python3.10.5\lib\ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=23.116&lon=113.25&units=metric&lang=zh_cn&appid=32ef9e7529d18b0e020660d069fa0bcb (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\loader_tags.py", line 188, in render
+    return template.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 173, in render
+    return self._render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\library.py", line 214, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "D:\Python_code\LibraryManageSystem\book\templatetags\book_extras.py", line 57, in show_weather
+    r = requests.get(url).json()
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=23.116&lon=113.25&units=metric&lang=zh_cn&appid=32ef9e7529d18b0e020660d069fa0bcb (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+2022-07-20 20:55:54,566 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-20 21:02:42,852 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-22 11:37:00,197 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-22 11:59:11,032 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-22 12:02:26,927 django.request 222 WARNING  Not Found: /favicon.ico
+2022-07-22 12:04:12,055 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-22 12:04:35,527 django.request 222 ERROR    Internal Server Error: /member-delete/22/
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Python_code\LibraryManageSystem\book\views.py", line 631, in get
+    delete_member=Member.objects.get(pk=member_pk)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\query.py", line 406, in get
+    raise self.model.DoesNotExist(
+book.models.Member.DoesNotExist: Member matching query does not exist.
+2022-07-22 12:04:35,617 django.request 222 WARNING  Not Found: /favicon.ico
+2022-07-22 12:04:40,728 django.request 222 ERROR    Internal Server Error: /member-delete/22/
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Python_code\LibraryManageSystem\book\views.py", line 631, in get
+    delete_member=Member.objects.get(pk=member_pk)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\db\models\query.py", line 406, in get
+    raise self.model.DoesNotExist(
+book.models.Member.DoesNotExist: Member matching query does not exist.
+2022-07-22 12:19:25,889 django.utils.autoreload 217 INFO     D:\Python_code\LibraryManageSystem\book\models.py changed, reloading.
+2022-07-22 12:19:26,581 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-22 12:20:00,569 django.utils.autoreload 217 INFO     D:\Python_code\LibraryManageSystem\book\models.py changed, reloading.
+2022-07-22 12:20:01,159 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-22 12:35:08,004 django.request 222 ERROR    Internal Server Error: /category-list
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connection.py", line 411, in connect
+    self.sock = ssl_wrap_socket(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\software\Python3.10.5\lib\ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "D:\software\Python3.10.5\lib\ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "D:\software\Python3.10.5\lib\ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=23.116&lon=113.25&units=metric&lang=zh_cn&appid=32ef9e7529d18b0e020660d069fa0bcb (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\loader_tags.py", line 188, in render
+    return template.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 173, in render
+    return self._render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\django\template\library.py", line 214, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "D:\Python_code\LibraryManageSystem\book\templatetags\book_extras.py", line 57, in show_weather
+    r = requests.get(url).json()
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\software\Python3.10.5\env\library_env\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=23.116&lon=113.25&units=metric&lang=zh_cn&appid=32ef9e7529d18b0e020660d069fa0bcb (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+2022-07-22 14:15:29,100 django.utils.autoreload 217 INFO     D:\Python_code\LibraryManageSystem\book\models.py changed, reloading.
+2022-07-22 14:15:29,750 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-22 14:15:39,279 django.utils.autoreload 217 INFO     D:\Python_code\LibraryManageSystem\book\models.py changed, reloading.
+2022-07-22 14:15:39,892 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-22 14:16:04,849 django.utils.autoreload 217 INFO     D:\Python_code\LibraryManageSystem\book\migrations\0001_initial.py changed, reloading.
+2022-07-22 14:16:05,406 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-22 14:42:53,344 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-23 11:49:16,987 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
+2022-07-23 11:51:22,197 django.utils.autoreload 597 INFO     Watching for file changes with StatReloader
